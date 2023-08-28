@@ -1,0 +1,20 @@
+{
+  "name": "dmoney",
+  "version": "1.0.0",
+  "description": "dmoney api newman report generation",
+  "main": "report.js",
+  "scripts": {
+    "test": "test",
+    "start": "node report.js"
+  },
+  "keywords": [
+    "api",
+    "automation"
+  ],
+  "author": "em",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^5.3.2",
+    "newman-reporter-htmlextra": "^1.22.11"
+  }
+}
